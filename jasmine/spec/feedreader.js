@@ -53,7 +53,8 @@ $(function() {
            expect($("body").hasClass("menu-hidden")).toBe(true);
          });
          /* Checks if the body tag toggle the 'menu-hidden' class when the click
-         event is trigged.*/
+          * event is trigged.
+          */
          it('canges visibility when clicked', function() {
               $('.menu-icon-link').trigger('click');
               expect($('body').hasClass('menu-hidden')).toBe(false);
